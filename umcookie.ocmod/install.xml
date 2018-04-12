@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Unique Made Cookie Solution</name>
+    <version>1.0</version>
+    <author>Unique Made</author>
+    <code>umcookie</code>
+    <link>http://www.UniqueMade.nl/</link>
+    <file path="catalog/view/theme/*/template/common/header.twig">
+        <operation>
+            <search><![CDATA[
+            </head>
+            ]]></search>
+            <add position="before"><![CDATA[
+                <script type="text/javascript" src="catalog/view/javascript/umcookie/cookiebar-latest.js"></script>
+            ]]></add>
+        </operation>
+    </file>
+</modification>
